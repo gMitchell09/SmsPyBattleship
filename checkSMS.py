@@ -28,7 +28,7 @@ def initVoice():
 def initIMAP():
     logging.debug("Logging in to IMAP")
     try:
-        M.login("smsgameapi@gmail.com", "skateboarders")
+        M.login("smsgameapi@gmail.com", "password")
     except:
         logging.warning("ERROR LOGGING IN TO IMAP")
         sys.exit()
