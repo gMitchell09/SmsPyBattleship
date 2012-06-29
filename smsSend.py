@@ -13,7 +13,7 @@ print "<html><head><title>SMS Gateway</title></head><body>"
 form = cgi.FieldStorage()
 if form.has_key('phoneNumber') and form['phoneNumber'].value != "":
     voice = Voice()
-    voice.login("george.mitchell91@gmail.com", "skateboarders")
+    voice.login("voice_account@gmail.com", "password")
 
     phoneNumber = form["phoneNumber"].value
     message = form["message"].value
