@@ -2,7 +2,7 @@ import imaplib
 import re
 
 M = imaplib.IMAP4_SSL("imap.googlemail.com", port=993)
-M.login("smsgameapi@gmail.com", "skateboarders")
+M.login("google_account@gmail.com", "password")
 
 phonePattern = re.compile(r'''
                 # don't match beginning of string, number can start anywhere
