@@ -5,8 +5,8 @@ from googlevoice import *
 from googlevoice.util import input
 
 voice = Voice()
-voice.login("george.mitchell91@gmail.com", "skateboarders")
+voice.login("voice_account@gmail.com", "password")
 
-phoneNumber = 2568569199
+phoneNumber = 9999999999
 message = "Cron"
 voice.send_sms(phoneNumber, message)
